@@ -1,0 +1,1 @@
+Convenience functions for emulating certain shell functionality - great for helping you convert those Bash scripts over to PowerShell.
