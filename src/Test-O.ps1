@@ -3,6 +3,14 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 
+<#
+.SYNOPSIS
+    Outputs whether the current user owns the specified file or directory.
+.PARAMETER Path
+    The path to the file or directory to check.
+.OUTPUTS
+    $true if the current user owns the specified file or directory, $false otherwise.
+#>
 function Test-O() {
     param(
         [Parameter(Mandatory = $true)]
